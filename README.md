@@ -1,6 +1,6 @@
 # Handwritten-Digit-and-Character-recognition
 # Here I have created a project for recognising handwritten digits and characters using CNN(Convolutional Neural Network).
-##This is what I have done:-
+## bThis is what I have done:-
 ### >Imported the tensorflow library and from which imported the MNIST data set and the Keras framework for creating a sequencial model.
 ### >Normalized the data
 ### >Resized the images to make them suitable for applying Convolution operatoin.
