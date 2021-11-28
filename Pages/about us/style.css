@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+body{
+    text-align: center;
+}
+
+.section{
+    margin-top:30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.inner a {
+    text-decoration: none;
+    margin-left: 90px;
+}
+
+.inner {
+    display: block;
+}
+
+.header {
+    width: 100%;
+    height: 65px;
+    background-color: #2f3640;
+    position: fixed;
+    top: 0;
+    color: white;
+    justify-content: center;
+}
+
+ul#names li {
+    float: left;
+}
+
+ul#names li a {
+    display: block;
+    color: #000000;
+    font-weight: bold;
+    padding: 0px 100px 25px 150px;
+    text-decoration: none;
+}
+
+#navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    height: 100px;
+}
+
+#navbar img {
+    float: left;
+    width: auto;
+    height: 100%;
+}
+
+ul#navbar li {
+    float: right;
+}
+
+ul#navbar li a {
+    display: block;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+
+ul#navbar li a:hover {
+    background-color: #ef233c;
+    color: white;
+} 
+
+.card {
+    width: 100%;
+    padding: 20px 25px;
+    margin: 15px auto;
+}
+
+.circle {
+    display: block;
+    width: 100%;
+    box-sizing: content-box;
+    margin: auto;
+    border-radius: 50%;
+}
+
+
+.profile {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+h1 {
+    font-family: 'Noto Sans Mono', monospace;
+    font-size: 50px;
+    letter-spacing: 1.2px;
+    margin: 10px 0px;
+}
+
+p {
+    font-size:27px;
+    margin: 20px 0px;
+}
+
+.icon {
+    cursor: pointer;
+    width: 0px;
+    margin: 10px 5px;
+}
