@@ -87,7 +87,7 @@ flex-direction: column;
 .faq-page:after {
     content: '\02795';
     /* Unicode character for "plus" sign (+) */
-    font-size: 13px;
+    font-size: 30px;
     color: #777;
     float: right;
     margin-left: 5px;
