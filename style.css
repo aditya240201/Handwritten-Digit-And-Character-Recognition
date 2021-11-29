@@ -15,12 +15,18 @@ body {
 }
 
 #navbar {
+  background-color: white;
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 10px;
   overflow: hidden;
-  background-color: white;
-  height: 55px;
+  height: 50px;
+}
+
+#navbar img {
+  float: left;
+  width: auto;
+  height: 100%;
 }
 
 ul#navbar li {
@@ -30,15 +36,15 @@ ul#navbar li {
 ul#navbar li a {
   display: block;
   color: #000000;
-  font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
-  padding: 20px;
+  font-family: 'Montserrat', sans-serif;
+  padding: 8px 16px;
   text-decoration: none;
 }
 
 
 ul#navbar li a:hover {
-  background-color: red;
-  color: black;
+  background-color: #ef233c;
+  color: white;
 }
 
 .questions {

@@ -1,6 +1,38 @@
 body{
     font-family: 'Work Sans', sans-serif;
 }
+#navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    height: 100px;
+}
+
+#navbar img {
+    float: left;
+    width: auto;
+    height: 100%;
+}
+
+ul#navbar li {
+    float: right;
+}
+
+ul#navbar li a {
+    display: block;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+
+ul#navbar li a:hover {
+    background-color: #ef233c;
+    color: white;
+} 
+
 .faq-heading{
     border-bottom: #777;
     padding: 20px 60px;
