@@ -104,10 +104,24 @@ footer {
   bottom: 0px;
   font-size: 35px;
   padding: 30px;
+  display: block;
 }
 
-footer>p {
+.one {
+  display: flex;
+  flex-direction: row;
+}
+
+.one ul,
+li {
+  display: block;
+}
+
+.left,
+.right {
+  display: block;
+}
+
+.two {
   text-align: center;
-  font-size: 20px;
-  margin-top: 70px;
 }
