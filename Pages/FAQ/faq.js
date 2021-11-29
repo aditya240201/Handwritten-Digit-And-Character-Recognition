@@ -1,4 +1,4 @@
-main.js file
+
 var faq = document.getElementsByClassName("faq-page");
 var i;
 
