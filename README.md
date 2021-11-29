@@ -55,5 +55,5 @@ Project
 - [Piyush Keshari]()
 - [Aditya Srivastava]()
 - [Shivansh Kulshrestha]()
-- [Shishank Aggarwal]()
+- [Shishank Agrawal]()
 - [Rohan Kumar]()
