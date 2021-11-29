@@ -1,13 +1,59 @@
-# Handwritten-Digit-and-Character-recognition
-# Here I have created a project for recognising handwritten digits and characters using CNN(Convolutional Neural Network).
-## This is what I have done:-
-### >Imported the tensorflow library and from which imported the MNIST data set and the Keras framework for creating a sequencial model.
-### >Normalized the data
-### >Resized the images to make them suitable for applying Convolution operatoin.
-### >Created a deep neural network with 5 epochs.
-### >Saved the model for further testing
-## >I have also tested the model on real time images which are usually in rbg colors, by turning them into gray scale and then making predictions on them using the model.
-## To run the code:
-### 1.Clone the github repository in your computer. git clone https://github.com/shishank2311/Handwritten-Digit-And-Character-Recognition.git
-### 2.Run TRAINING.ipynb file which will Train our model for handwritten digit recognition and will save the model as 'saved_model'. 
-### 3.Run TESTING.ipynb file to test the created model and predict the digits inside the input images.
+# Handwriting Recognizer
+
+# This project uses **Deep Learning** to predict the characters in the given image.
+
+## AI vs Machine Learning vs Deep Learning
+
+<img src="https://assets.website-files.com/5fb24a974499e90dae242d98/60f6feb4be651f666b46194a_AI%20vs%20Machine%20Learning%20vs%20Deep%20Learning.jpg" width="400px">
+
+## What is Deep Learning?
+
+Deep Learning is a subfield of machine learning concerned with algorithms inspired by the structure and function of the brain called artificial neural networks.
+
+## What is neural networks?
+
+Neural networks reflect the behavior of the human brain, allowing computer programs to recognize patterns and solve common problems in the fields of AI, machine learning, and deep learning.
+
+## Which machine learning algorithm is suitable for handwritten character recognition?
+
+**Connectionist Temporal Classification(CTC)** is an algorithm used to deal with tasks like speech recognition, handwriting recognition etc.
+
+## How Deep learning is used for recognition of hand-written characters?
+
+<img src="https://miro.medium.com/max/1400/1*XbuW8WuRrAY5pC4t-9DZAQ.jpeg" width="700px">
+
+## What is Convolution?
+
+Convolution preserves the relationship between pixels by learning image features using small squares of input data. It is a mathematical operation that takes two inputs such as image matrix and a filter or kernel.
+
+## Libraries used:
+
+- Keras - Used to download datasets for training.
+- Tensorflow - Used for Deep Learning algorithms.
+- Opencv - Used to train model.
+- Joblib - Used to save the trained model.
+
+
+## Directory Structure
+
+```text
+Project
+|
+|-----saved_model (Trained model is saved here)
+|
+|-----test_sample (some of the samples used for testing is saved in this folder)
+|
+|-----testing_function (this is used to integrate our python project with our webpage)
+|
+|-----Testing.ipynb (Jupyter notebook for testing purposes)
+|
+|-----Training.ipynb (Jupyter notebook for training purposes and validating the trained model)
+```
+
+# Contributors
+
+- [Piyush Keshari]()
+- [Aditya Srivastava]()
+- [Shivansh Kulshrestha]()
+- [Shishank Aggarwal]()
+- [Rohan Kumar]()
