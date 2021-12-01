@@ -14,7 +14,7 @@
             box-sizing: border-box;
         }
 
-        body {
+        .container_max {
             height: 100vh;
             display: flex;
             align-items: center;
@@ -210,31 +210,115 @@
         .signup a:hover {
             text-decoration: underline;
         }
+
+        
+        /* Footer */
+        .footer{
+        width: 100%;
+        display: block;
+        height:200px;
+        text-align: center;
+        margin-top: 80px;
+        font-weight: bold;
+        }
+        .footer a{
+        text-decoration: none;
+        font-family: 'Open Sans', sans-serif;
+        }
+        .upper{
+        border-top: 3px solid black;
+        height:220px;
+        display: block;
+        }
+        .head{
+        padding: 15px;
+        font-size: 30px;
+        font-weight: bolder;
+        }
+        .left{
+        display: block;
+        float: left;
+        width: 40%;
+        }
+        .left .list{
+        font-size: 20px;
+        }
+        .left .list div{
+        padding:8px;
+        }
+        .right{
+        display: block;
+        float: right;
+        width:60%;
+        }
+        .right .list div{
+        padding: 4px 0px;
+        }
+        .lower{
+        margin-top: 10p;
+        background-color: black;
+        height:40px;
+        padding-top:9px;
+        color: white;
+        }
     </style>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
         integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous" />
 </head>
 
 <body>
-    <div class="container">
+    <div class="container_max">
+        <div class="container">
 
-        <header>Contact Us</header>
-        <form action="login.php" method="POST">
-            <div class="input-field">
-                <input type="text" name="name" required>
-                <label>Email or Username</label>
-            </div>
-            <div class="input-field msg" style="height:200px">
-                <input class="pswrd" type="password" name="psw" required>
-                <span class="show">SHOW</span>
-                <label>Message</label>
-            </div>
-            <div class="button">
-                <div class="inner">
+            <header>Contact Us</header>
+            <form action="login.php" method="POST">
+                <div class="input-field">
+                    <input type="text" name="name" required>
+                    <label>Email or Username</label>
                 </div>
-                <button type="submit">SUBMIT</button>
+                <div class="input-field msg" style="height:200px">
+                    <input class="pswrd" type="password" name="psw" required>
+                    <span class="show">SHOW</span>
+                    <label>Message</label>
+                </div>
+                <div class="button">
+                    <div class="inner">
+                    </div>
+                    <button type="submit">SUBMIT</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <br>
+
+    <div class="footer">
+        <div class="upper">
+            <div class="left">
+                <div class="head">Quick Links</div>
+                <div class="list">
+                    <div class="item"><a href="../about us/abus.html">About Us</a></div>
+                    <div class="item"><a href="../Contact Us/contact.html">Contant Us</a></div>
+                    <div class="item"><a href="../FAQ/FAQ.html">FAQ</a>
+                </div>
+                </div>
             </div>
-        </form>
+            <div class="right">
+                <div class="head">Social Links</div>
+                <div class="list">
+                    <div class="git_id"><i class="fab fa-github"></i> <a href="https://github.com/shishank2311" target="_blank"> Shishank Agrawal</a></div>
+                    <div class="git_id"><i class="fab fa-github"></i> <a href="https://github.com/insane-banda" target="_blank"> Piyush Kesri</a></div>
+                    <div class="git_id"><i class="fab fa-github"></i> <a href="https://github.com/aditya240201" target="_blank"> Aditya Shrivastava</a></div>
+                    <div class="git_id"><i class="fab fa-github"></i> <a href="https://github.com/rohanverma2711" target="_blank"> Rohan Verma</a></div>
+                    <div class="git_id"><i class="fab fa-github"></i> <a href="https://github.com/ShivanshKuls25" target="_blank"> Shivansh Kulshrestha</a></div>    
+                </div>
+                </div>
+        </div>
+        <center>
+            <div class="lower">
+                © 2021-2022, HANDRECOGN.com, Inc. or its affiliates
+            </div>
+        </center>
     </div>
     <script>
         var input = document.querySelector('.pswrd');
@@ -253,7 +337,6 @@
             }
         }
     </script>
-
 </body>
 
 </html>

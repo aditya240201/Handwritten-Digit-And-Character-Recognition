@@ -97,3 +97,53 @@ flex-direction: column;
     content: "\2796";
     /* Unicode character for "minus" sign (-) */
 }
+/* Footer */
+.footer{
+    width: 100%;
+    display: block;
+    height:200px;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 100px;
+    font-weight: bold;
+  }
+  .footer a{
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+  }
+  .upper{
+    border-top: 3px solid black;
+    height:220px;
+    display: block;
+  }
+  .head{
+    padding: 15px;
+    font-size: 30px;
+    font-weight: bolder;
+  }
+  .left{
+    display: block;
+     float: left;
+    width: 40%;
+  }
+  .left .list{
+    font-size: 20px;
+  }
+  .left .list div{
+    padding:8px;
+  }
+  .right{
+    display: block;
+    float: right;
+    width:60%;
+  }
+  .right .list div{
+     padding: 4px 0px;
+  }
+  .lower{
+    margin-top: 10p;
+    background-color: black;
+    height:40px;
+    padding-top:9px;
+    color: white;
+  }
