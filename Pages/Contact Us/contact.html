@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>Contact Us</title>
+    
     <style>
         @import url('https://fonts.googleapis.com/css?family=Montserrat:600|Noto+Sans|Open+Sans:400,700&display=swap');
 
@@ -21,7 +22,7 @@
             text-align: center;
             font-family: sans-serif;
             justify-content: center;
-            background: url(bg.jpg);
+
             background-size: cover;
             background-position: center;
         }
@@ -219,41 +220,24 @@
     <div class="container">
 
         <header>Contact Us</header>
-        <form action="login.php" method="POST">
+        <form id="contactForm" onsubmit="preventFromSubmitting(event)">
             <div class="input-field">
-                <input type="text" name="name" required>
+                <input type="text" id="email" required>
                 <label>Email or Username</label>
             </div>
             <div class="input-field msg" style="height:200px">
-                <input class="pswrd" type="password" name="psw" required>
+                <input id="message" required>
                 <span class="show">SHOW</span>
                 <label>Message</label>
             </div>
             <div class="button">
                 <div class="inner">
                 </div>
-                <button type="submit">SUBMIT</button>
+                <button id="submit">SUBMIT</button>
             </div>
         </form>
     </div>
-    <script>
-        var input = document.querySelector('.pswrd');
-        var show = document.querySelector('.show');
-        show.addEventListener('click', active);
-
-        function active() {
-            if (input.type === "password") {
-                input.type = "text";
-                show.style.color = "#1DA1F2";
-                show.textContent = "HIDE";
-            } else {
-                input.type = "password";
-                show.textContent = "SHOW";
-                show.style.color = "#111";
-            }
-        }
-    </script>
-
+    
 </body>
 
 </html>
